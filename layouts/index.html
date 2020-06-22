@@ -1,9 +1,13 @@
 {{ define "main" }} 
 <div class="container-fluid">
 	{{ partial "header" . }}
-	<div class="row">
+	<div class="row book-grid">
 		
-		Main content
+		{{ with .Site.Data.content }}
+			{{ range $index, $element := .books }}
+				{{ partial "book-grid-item" . }}
+			{{ end }}
+		{{ end }}
 		
 	</div>
 	{{ partial "footer" . }}

@@ -1,0 +1,12 @@
+.book-grid {
+	justify-content: space-around;
+
+	.item {
+		width: 200px;
+		margin:30px;
+
+		img {
+			width: 100%;
+		}
+	}
+}
