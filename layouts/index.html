@@ -1,7 +1,6 @@
 {{ define "main" }} 
-<div class="container-fluid">
-	{{ partial "header" . }}
-	<div class="row book-grid">
+
+	<div class="row justify-content-around" style="margin-left:-105px;margin-right:-105px;">
 		
 		{{ with .Site.Data.content }}
 			{{ range $index, $element := .books }}
@@ -10,9 +9,5 @@
 		{{ end }}
 		
 	</div>
-	{{ partial "footer" . }}
-</div>
-{{ end }}
-
-
 	
+{{ end }}

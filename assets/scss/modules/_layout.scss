@@ -1,21 +1,23 @@
-* {
-	font-family: 'CormorantGaramond-Regular', serif;
+// * {
+// 	font-family: 'CormorantGaramond-Regular', serif;
+// }
+
+body {
+	background-color: rgb(245,245,245);
 }
+
+// .footer {
+  
+// 	padding-left:100px;
+// 	padding-top:50px;
+// 	height: 50px;
+
+// 	a {
+// 		width:30px;
+// 		margin-right:20px;
+// 	}
+// }
 
 .footer {
-  
-	padding-left:100px;
-	padding-top:50px;
-	height: 50px;
-
-	a {
-		width:30px;
-		margin-right:20px;
-	}
-}
-
-.header {
-	padding-top: 30px;
-	padding-left: 100px;
-	padding-right:100px;
+	min-height: 70px;
 }
