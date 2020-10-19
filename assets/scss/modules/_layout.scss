@@ -3,11 +3,11 @@
 // }
 
 body {
-	background-color: rgb(245,245,245);
+  background-color: rgb(245, 245, 245);
 }
 
 // .footer {
-  
+
 // 	padding-left:100px;
 // 	padding-top:50px;
 // 	height: 50px;
@@ -19,5 +19,27 @@ body {
 // }
 
 .footer {
-	min-height: 70px;
+  min-height: 70px;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+
+  .header-name {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.header-name {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
