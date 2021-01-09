@@ -1,13 +1,12 @@
 {{ define "main" }} 
 
-	<div class="row justify-content-around" style="margin-left:-105px;margin-right:-105px;">
-		
+	<!-- style="margin-left:-105px;margin-right:-105px;" -->
+	<div class="row justify-content-around">
 		{{ with .Site.Data.content }}
 			{{ range $index, $element := .books }}
 				{{ partial "book-grid-item" . }}
 			{{ end }}
 		{{ end }}
-		
 	</div>
 	
 {{ end }}
