@@ -1,6 +1,4 @@
 {{ define "main" }} 
-
-	<!-- style="margin-left:-105px;margin-right:-105px;" -->
 	<div class="row justify-content-around">
 		{{ with .Site.Data.content }}
 			{{ range $index, $element := .books }}
@@ -8,5 +6,4 @@
 			{{ end }}
 		{{ end }}
 	</div>
-	
 {{ end }}

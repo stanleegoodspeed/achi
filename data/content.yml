@@ -14,10 +14,6 @@ books:
   - alt_text: "The Book on Pie"
     title: "the_book_on_pie"
     cover: "TheBookonPie_cover.png"
-    
-  - alt_text: "Amboy"
-    title: "amboy"
-    cover: "Amboy_cover.png"
 
   - alt_text: "We Should All Be Mirandas"
     title: "we_should_all_be_mirandas"
