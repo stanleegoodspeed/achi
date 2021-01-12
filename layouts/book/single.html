@@ -15,7 +15,7 @@
         <div id="carouselExampleControls" class="carousel slide">
             <div class="carousel-inner">
                 {{ range $index, $element := .Params.interior }}
-                        <div class="carousel-item {{ if eq $index 1 }} active {{ end }}">
+                        <div class="carousel-item {{ if eq $index 0 }} active {{ end }}">
                             <img src="/img/{{ $element }}" class="d-block w-100" alt="">
                         </div>
                 {{ end }}
