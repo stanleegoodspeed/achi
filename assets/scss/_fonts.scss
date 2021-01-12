@@ -1,14 +1,4 @@
-@font-face {
-    font-family: "CormorantGaramond-Light";
-    src: url("/fonts/CormorantGaramond-Light.ttf") format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=DM+Sans:wght@700&display=swap');
 
-@font-face {
-    font-family: "CormorantGaramond-Medium";
-    src: url("/fonts/CormorantGaramond-Medium.ttf") format('truetype');
-}
-
-@font-face {
-    font-family: "CormorantGaramond-Regular";
-    src: url("/fonts/CormorantGaramond-Regular.ttf") format('truetype');
-}
+$mono: 'DM Mono', serif;   
+$sans: 'DM Sans', serif;

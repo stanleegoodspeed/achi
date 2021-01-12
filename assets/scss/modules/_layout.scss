@@ -1,18 +1,21 @@
-// * {
-// 	font-family: 'CormorantGaramond-Regular', serif;
-// }
-
 body {
   background-color: rgb(245, 245, 245);
 }
 
-.footer {
-  min-height: 70px;
-}
-
 .navbar {
+  font-family: $mono;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgb(98,95,102);
+
   .navbar-brand {
-    padding-bottom: 7px;
+    font-family: $sans;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+
+    @media only screen and (max-width: 600px) {
+      font-size: 40px;
+    }
   }
 }
 
@@ -37,5 +40,69 @@ body {
 
   .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+}
+
+.bio {
+  h1 {
+    font-family: $sans;
+    font-weight: bold;
+    font-size: 48px;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 30px;
+    }
+  }
+  p {
+    font-family: $mono;
+    font-weight: lighter;
+    font-size: 20px;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 15px;
+    }
+  }
+
+  a {
+    color: black;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.book-notes {
+  font-family: $mono;
+  font-weight: lighter;
+  font-size: 18px;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.footer {
+  font-family: $mono;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgb(98,95,102);
+
+  @media only screen and (max-width: 600px) {
+    font-size: 12px;
+  }
+}
+
+.social-menu {
+  list-style: none;
+  li {
+    display: inline;
+    
+    img {
+      width: 40px;
+
+      @media only screen and (max-width: 600px) {
+        width: 20px;
+      }
+    }
   }
 }
