@@ -1,4 +1,6 @@
 ---
+title: "Amboy"
+date: 2021-01-11T19:03:10-05:00
 notes: "Cover Design <br> Hougton Mifflin Harcourt"
 lead_image: "amboy/Amboy_cover.png"
 interior:
