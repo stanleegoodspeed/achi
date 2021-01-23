@@ -17,7 +17,7 @@ name = "allisonchi.com deployment"
 URL = "s3://www.allisonchi.com?region=us-east-1"
 
 # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-cloudFrontDistributionID = "EJOPEIH0MIJ5"
+cloudFrontDistributionID = "ELYZBFJB630RB"
 
 [[deployment.matchers]]
 #  Cache static assets for 1 year.
