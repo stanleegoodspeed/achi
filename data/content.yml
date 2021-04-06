@@ -1,5 +1,9 @@
 books:
 
+  - alt_text: "The King Arthur Baking Company All-Purpose Baker’s Companion"
+    title: "kabc_bakers_companion"
+    cover: "KABC_BakersCompanion_Cover.png"
+
   - alt_text: "The Book on Pie"
     title: "the_book_on_pie"
     cover: "TheBookonPie_cover.png"
