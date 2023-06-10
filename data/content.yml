@@ -23,6 +23,10 @@ books:
     title: "the_book_on_pie"
     cover: "TheBookonPie_cover.png"
 
+  - alt_text: "Perfectly Good Food"
+    title: "perfectly_good_food"
+    cover: "PerfectlyGoodFood_cover.png"
+
   - alt_text: "Fresh Midwest"
     title: "fresh_midwest"
     cover: "FreshMidwest_cover.png"
